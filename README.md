@@ -49,4 +49,9 @@ Issue를 통해 의견교환
 ## 6. Contributors
 |Name|Github|Email|
 |:--:|:--:|:--:|
-|
+|김경남|@kkyy0126|kkyy0126@naver.com|
+|오다혜|devohda|
+|이미연|@iammiori|
+|이채영|@Rootabyss||
+|장문경|@moonk1212||
+|진수빈|@subinio||
