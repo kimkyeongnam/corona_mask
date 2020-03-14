@@ -54,4 +54,4 @@ Issue를 통해 의견교환
 |이미연|@iammiori|mioriii@naver.com|
 |이채영|@Rootabyss||
 |장문경|@moonk1212||
-|진수빈|@subinio||
+|진수빈|@subinio|subinjin22@gmail.com|
