@@ -1,4 +1,11 @@
 /* header */
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url(../fonts/NanumGothic.eot);
+  src: local(※), url(../fonts/NanumGothic.woff) format('woff');
+}
+
 .header_style{
     width: 100%;
     height: 80px;
