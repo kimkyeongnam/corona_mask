@@ -49,9 +49,9 @@ Issue를 통해 의견교환
 ## 6. Contributors
 |Name|Github|Email|
 |:--:|:--:|:--:|
-|김경남|@kkyy0126|kkyy0126@naver.com|
-|오다혜|devohda|
-|이미연|@iammiori|mioriii@naver.com|
-|이채영|@Rootabyss||
-|장문경|@moonk1212||
-|진수빈|@subinio|subinjin22@gmail.com|
+|김경남|[@kimkyeongnam](https://github.com/kimkyeongnam)|kkyy0126@naver.com|
+|오다혜|[@devohda](https://github.com/devohda)|이메일 적어주세요!|
+|이미연|[@iammiori](https://github.com/iammiori)|mioriii@naver.com|
+|이채영|[@Rootabyss](https://github.com/Rootabyss)|이메일 적어주세요!|
+|장문경|[@moonk1212](https://github.com/moonk1212)|이메일 적어주세요!|
+|진수빈|[@subinio](https://github.com/subinio)|subinjin22@gmail.com|
