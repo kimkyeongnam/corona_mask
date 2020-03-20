@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/kimkyeongnam/corona_mask/issues"
   },
-  "homepage": "https://github.com/kimkyeongnam/corona_mask#readme"
+  "homepage": "https://github.com/kimkyeongnam/corona_mask#readme",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "voca": "^1.4.0"
+  }
 }
