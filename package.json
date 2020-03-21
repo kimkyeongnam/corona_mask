@@ -1,0 +1,27 @@
+{
+  "name": "corona_mask",
+  "version": "1.0.0",
+  "description": "저희는 세종대학교 학생으로 구성되어 있으며,  \r COVID-19(코로나 바이러스)에 대응하기 위한, 위치기반 주변 약국 및 마스크 물량 체크를 위한 웹페이지 구축하여  \r 최종적으로 재능기부를 통한 사회기여를 목표하고 있습니다!  \r 늦어도 2020년 3월 31일까지 서비스 개발 완료 및 배포 예정입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimkyeongnam/corona_mask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimkyeongnam/corona_mask/issues"
+  },
+  "homepage": "https://github.com/kimkyeongnam/corona_mask#readme",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "voca": "^1.4.0"
+  }
+}
