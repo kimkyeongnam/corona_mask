@@ -20,8 +20,10 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
+    "cheerio-httpcli": "^0.7.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
+    "url": "^0.11.0",
     "voca": "^1.4.0"
   }
 }

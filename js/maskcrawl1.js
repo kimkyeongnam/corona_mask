@@ -1,30 +1,16 @@
-const axios = require("axios");
-const cheerio = require("cheerio");
-const log = console.log;
 
-const getHtml = async () => {
-  try {
-    return await axios.get("https://smartstore.naver.com/aer-shop/products/4722827602");
-  } catch (error) {
-    console.error(error);
-  }
-};
+var client = require('cheerio-httpcli'); 
+var URL =require('url');
+let url = 'https://smartstore.naver.com/aer-shop/products/4722827602'; 
+var param = {}; 
 
-getHtml()
-  .then(html => {
-    let ulList = [];
-    const $ = cheerio.load(html.data);
-    const data = $("div.selectbox-list ul").find('li.selectbox-item').text();
-
-    /*$bodyList.each(function(i, elem) {
-      ulList[i] = {
-          mask1: $(this).find('li.selectbox-item').text(),
-         mask2: $(this).find('li.selectbox-item').text(),
-         mask3: $(this).find('li.selectbox-item').text()
-      };
-    });
-    */
-    //const data = ulList.filter(n => n.mask1);
-    return data;
-  })
-  .then(res => log(res));
+client.fetch(url, param, function(err, $, res){
+  if(err){
+       console.log(err);
+        return; 
+     }
+ $(".selectbox-layer").each(function(idx) { 
+    result=$(".selectbox-item").text();
+   console.log(result);
+     }); 
+ });
