@@ -1,7 +1,7 @@
 
 var client = require('cheerio-httpcli'); 
 var URL =require('url');
-let url = 'https://smartstore.naver.com/aer-shop/products/4722827602'; 
+let url = 'https://smartstore.naver.com/aer-shop'; 
 var param = {}; 
 
 client.fetch(url, param, function(err, $, res){
@@ -9,8 +9,13 @@ client.fetch(url, param, function(err, $, res){
        console.log(err);
         return; 
      }
- $(".selectbox-layer").each(function(idx) { 
-    result=$(".selectbox-item").text();
-   console.log(result);
+ $(".area_status").each(function(idx) { 
+   
+    result=$("span.blind").text();
      }); 
+     console.log(result)
+     soldout="일시품절";
+     if(result.includes(soldout)==true){
+       console.log("품절");
+     }
  });
