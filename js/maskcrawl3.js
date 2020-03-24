@@ -1,10 +1,8 @@
+
 var client = require('cheerio-httpcli'); 
-var innerhtml = require("innerhtml")
-
 var URL =require('url');
-let url = 'https://smartstore.naver.com/aer-shop'; 
+let url = 'https://smartstore.naver.com/korea-mask';
 var param = {}; 
-
 client.fetch(url, param, function(err, $, res){
   if(err){
        console.log(err);
