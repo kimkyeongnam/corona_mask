@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    dd
+    <script>
+        const request = new XMLHttpRequest();
+        const url = 'https://smartstore.naver.com/aer-shop/products/4722827602'; // 긁어오고 싶은 주소를 넣는다. 예제는 네이버
+
+        request.open('GET', url, true);
+        request.onload = function () {
+            document.write(request.responseText); // 긁어온 내용 뿌리기
+        };
+        request.send();
+    </script>
+</body>
+</html>
