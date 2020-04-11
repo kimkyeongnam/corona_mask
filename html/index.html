@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+<!-- This is Main homepage -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,10 +11,10 @@
 
 <body onload="chk_buy_mask();">
     <!-- logo -->
-    <header class="logo_style" >
+    <header class="logo_style">
         <img src="../assets/img/logo.svg"></class>
     </header>
-    
+
     <!-- Tip -->
     <section>
         <p class="tip_ex">&nbsp;&nbsp;&nbsp;&nbsp;Tip
@@ -25,12 +26,13 @@
     <section class="search_ex">
         <form action="" method="" onsubmit="return false">
             <!-- Change Func() name -->
-            <input type="text" class="search_in" placeholder="원하는 위치를 입력하세요" onkeypress="if(event.keyCode==13){Func();}">
+            <input type="text" class="search_in" placeholder="원하는 위치를 입력하세요"
+                onkeypress="if(event.keyCode==13){search()}">
         </form>
     </section>
 
     <!-- location search: current location -->
-    <button class="circle1" onclick="current_location()">
+    <button class="circle1" onclick="search(1)">
         <div class="circle2">
             <div class="circle3">
                 <div class="circle4">
@@ -42,7 +44,7 @@
             </div>
         </div>
     </button>
-    
+
     <script src="../js/main.js"></script>
 </body>
 

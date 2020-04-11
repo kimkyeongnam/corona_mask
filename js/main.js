@@ -34,6 +34,25 @@ function chk_buy_mask(){
 
 
 
-function current_location(){
-    alert("good");
+/***** Page load: search & map page load *****/
+function search(select_value){
+    let mylocation;
+
+    //button click: current location search
+    if(select_value == 1){ 
+        // get current location value
+        mylocation = [33.450701, 126.570667];
+    }
+
+
+    // bar search: specific area
+    else{
+        // !!!parsing!!! : find location value
+        mylocation = [33.33412, 125.44323]; //temp setting
+
+    }
+
+
+    // road map page
+    location.href = "./mask_search.html" + '#' + mylocation;
 }
