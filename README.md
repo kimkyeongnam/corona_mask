@@ -1,36 +1,16 @@
 # corona_mask
 
-<br><br>
 
-## Directory
-```
-.
-│─ README.md
-│
-├─ assets
-│  ├── tmp.txt
-│
-├─ css
-│  ├── main.css
-│
-├─ etc
-│  ├── 0311_1059.png
-│
-├─ html
-│  ├── index.html
-│
-└─ js
-   ├── main.js
-```
+## Branch
+나중에 깔끔하게 정리할테니 편안하게 만드셔서 작업해주세요 
+* ```master``` 실제 홈페이지 구성요소들
+* ```design``` 설계 시 디자인 요소 모음
+* ```readme``` 마지막에 업로드 될 READMD.md 파일을 잠시 백업 
+* 개인용
+  * ```miori```
+  * ```onlinemask```
+  * ```subinio```
 <br>
 
-
-## Contributors
-|Name|Github|Email|
-|:--:|:--:|:--:|
-|김경남|[@kimkyeongnam](https://github.com/kimkyeongnam)|kkyy0126@naver.com|
-|오다혜|[@devohda](https://github.com/devohda)|이메일 적어주세요!|
-|이미연|[@iammiori](https://github.com/iammiori)|mioriii@naver.com|
-|이채영|[@Rootabyss](https://github.com/Rootabyss)|이메일 적어주세요!|
-|장문경|[@moonk1212](https://github.com/moonk1212)|zm820808@gmail.com|
-|진수빈|[@subinio](https://github.com/subinio)|subinjin22@gmail.com|
+## Progress
+[Project](https://github.com/kimkyeongnam/corona_mask/projects/1) 참고 
