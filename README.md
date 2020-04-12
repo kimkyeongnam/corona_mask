@@ -1,4 +1,4 @@
-디자인만 모아놓은 branch 입니다. 아래의 표는 생성일 순서로 작성했습니다.
+디자인만 모아놓은 branch 입니다.
 <br><br>
 ![flowchart](https://github.com/kimkyeongnam/corona_mask/blob/design/flow%20chart.PNG)
 
