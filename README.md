@@ -13,6 +13,6 @@
 ||navigation.png|메인화면<br>네비게이션바||
 |주변 약국 찾기<br>(지도 api)|지도1.png|위치표시만|html/mask_search.html<br>js/map.js|
 ||지도2.png|해당 위치 요약 내용 출력||
-|마스크 기부처<br>리스트|||html/donation.html|
+|마스크 기부처<br>리스트||마스크 기부처 |html/donation.html|
 |마스크 온라인<br>스토어 리스트||||
 |코로나 기본 지식||||
