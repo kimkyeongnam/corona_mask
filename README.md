@@ -10,6 +10,7 @@
 |메인화면|logo.svg||./index.html<br>js/main.js|
 ||메인 컬러보드.png|||
 ||메인화면.png|최종 메인화면 디자인||
+||navigation.png|메인화면<br>네비게이션바||
 |주변 약국 찾기<br>(지도 api)|지도1.png|위치표시만|./mask_search.html<br>js/map.js|
 ||지도2.png|해당 위치 요약 내용 출력||
 |마스크 기부처<br>리스트||||
