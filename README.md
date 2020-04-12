@@ -7,8 +7,8 @@
 |와이어프레임<br>디자인|설계서.pptx|||
 ||코로나 웹 설계 초안.pptx|전반적인 위치 배치<br>디자인 필요<br><br>**이 파일을 기준으로 디자인 구성 참고**||
 |flow chart|flow chart.png|구성도||
-|메인화면|logo.svg||index.html<br>main.js|
+|메인화면|logo.svg||./index.html<br>js/main.js|
 ||메인 컬러보드.png|||
 ||메인화면.png|최종 메인화면 디자인||
-|주변 약국 찾기<br>(지도 api)|지도1.png|위치표시만|mask_search.html<br>map.js|
+|주변 약국 찾기<br>(지도 api)|지도1.png|위치표시만|./mask_search.html<br>js/map.js|
 ||지도2.png|해당 위치 요약 내용 출력||
