@@ -1,6 +1,10 @@
 /***** Check the mask day of week *****/
 
-function chk_buy_mask() {
+function freeBuy() {
+    document.getElementById("chk_buy").innerText = "공적 마스크를 1인당 일주일에 10매까지 구입할 수 있습니다.";
+}
+
+function day5RotationBuy() {
     let date = new Date();
     let day = date.getDay();
 
@@ -53,16 +57,14 @@ function search(select_value) {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function(position) {
                 mylocation = [position.coords.latitude, position.coords.longitude];
-                
-                // road map page
-                location.href = "./mask_search.html" + '#' + mylocation;
             });
         } 
         // fail getting current location
         else {
             message = 'geolocation을 사용할수 없어요..'
             mylocation = [37.54404, 127.09637]; // 광진구 구의동
-            displayMarker(locPosition, message);
         }
+        // road map page
+        location.href = "./mask_search.html" + '#' + mylocation;
     }
 }

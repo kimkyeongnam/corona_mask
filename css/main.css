@@ -23,7 +23,7 @@
 .tip_ex{
   background-color: rgb(255, 233, 72);
   border-radius: 10px;
-  max-width: 450px;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
@@ -35,6 +35,9 @@
   border-radius: 15px;
   font-size: 15px;
   font-family: '나눔고딕', 'Nanum Gothic', Nanum Gothic;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 2%;
 }
 
 
